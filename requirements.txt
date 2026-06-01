@@ -1,16 +1,21 @@
+# FastAPI Backend
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
 
-fastapi
-uvicorn[standard]
-pydantic
-python-dotenv
-asyncpg
-psycopg2-binary
-pgvector
-openai
+# LlamaIndex (Unpinned to allow pip to find the exact match for your Python version)
 llama-index-core
+llama-index-llms-nvidia
 llama-index-embeddings-huggingface
+llama-index-vector-stores-postgres
+
+# Database
+psycopg2-binary
+asyncpg
+
+# Streamlit Frontend
 streamlit
 requests
-sentence-transformers
-transformers
-torch
+
+# Utilities
+python-dotenv
