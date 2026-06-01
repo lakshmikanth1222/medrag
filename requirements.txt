@@ -1,0 +1,16 @@
+
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+asyncpg
+psycopg2-binary
+pgvector
+openai
+llama-index-core
+llama-index-embeddings-huggingface
+streamlit
+requests
+sentence-transformers
+transformers
+torch
